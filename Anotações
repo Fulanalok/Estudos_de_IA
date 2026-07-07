@@ -1,0 +1,284 @@
+ANOTACOES DE ESTUDO: GENERATIVE AI
+
+1. IDEIA CENTRAL
+
+IA generativa cria conteudo novo, como texto, imagem, audio, video ou codigo, a partir de padroes aprendidos em grandes volumes de dados.
+
+Modelos de linguagem, como o ChatGPT, funcionam prevendo a proxima palavra ou parte de palavra com base no contexto anterior.
+
+Exemplo simples: trigram.
+Um modelo trigram olha para as duas palavras anteriores e calcula qual palavra provavelmente vem depois.
+
+Frase para memorizar:
+Modelos de linguagem nao "sabem" como humanos; eles geram respostas provaveis com base em padroes aprendidos.
+
+
+2. COMO MELHORAR O COMPORTAMENTO DOS MODELOS
+
+RLHF significa Reinforcement Learning from Human Feedback.
+
+Funciona assim:
+1. O modelo gera respostas.
+2. Humanos avaliam quais respostas sao melhores.
+3. O modelo aprende a preferir respostas mais alinhadas com essas avaliacoes.
+
+RLHF funciona melhor quando humanos conseguem julgar bem a qualidade da resposta, como em resumos, explicacoes e tarefas pequenas.
+
+RLHF funciona pior quando a tarefa exige prova tecnica objetiva ou muito contexto, como corrigir bugs em sistemas legados grandes.
+
+Constitutional AI usa principios gerais para orientar o comportamento da IA, como seguranca, privacidade, honestidade e nao discriminacao.
+
+Resumo:
+RLHF usa julgamento humano direto. Constitutional AI usa principios para guiar a resposta.
+
+
+3. PROMPT ENGINEERING
+
+Um bom prompt deve ter:
+- Contexto.
+- Objetivo claro.
+- Formato desejado.
+- Publico.
+- Restricoes.
+- Etapas, quando possivel.
+
+Modelo simples:
+Contexto: estou estudando IA generativa.
+Objetivo: explique RLHF.
+Publico: aluno iniciante.
+Formato: resumo com exemplos.
+Restricoes: use linguagem simples.
+Etapas: defina, de exemplo e diga uma limitacao.
+
+Regra importante:
+Toda resposta de IA precisa de revisao humana, porque pode conter erro, vies, omissao ou tom inadequado.
+
+
+4. BONS USOS DE LLMS
+
+LLMs sao bons quando ajudam humanos a transformar informacao em algo revisavel.
+
+Exemplos:
+- Resumir textos longos.
+- Organizar comentarios publicos.
+- Responder perguntas usando uma base de conhecimento.
+- Apoiar atendimento ao cliente.
+- Ajudar desenvolvedores.
+- Classificar feedback.
+- Gerar ideias iniciais.
+
+Frase para memorizar:
+Use LLMs como assistentes, nao como autoridades finais.
+
+
+5. MAUS USOS DE LLMS
+
+LLMs sao problematicos quando dao respostas autoritativas sem verificacao humana, especialmente sobre:
+- Regras.
+- Direitos.
+- Obrigacoes.
+- Saude.
+- Lei.
+- Financas.
+- Politicas publicas.
+
+O caso do chatbot da Air Canada mostrou que uma empresa pode ser responsabilizada quando um chatbot fornece informacao errada ao consumidor.
+
+Tambem ha risco em substituir especialistas humanos, pois isso pode reduzir qualidade, precisao e nuance cultural.
+
+
+6. IA EM CAMPANHAS POLITICAS
+
+Usos positivos:
+- Traducao.
+- Acessibilidade.
+- Analise de feedback.
+- Criacao rapida de conteudo.
+- Interacao com eleitores.
+- Organizacao de mensagens.
+
+Usos perigosos:
+- Deepfakes enganosos.
+- Audios falsos.
+- Impersonation, ou seja, fingir ser outra pessoa.
+- Desinformacao sobre votacao.
+- Ataques manipulativos personalizados.
+
+Boas regras:
+- Transparencia.
+- Aviso quando conteudo foi gerado por IA.
+- Proibicao de deepfakes enganosos.
+- Revisao humana antes da publicacao.
+- Responsabilidade das plataformas.
+
+
+7. COMO RESPONDER A DEEPFAKES
+
+Passos recomendados:
+1. Verificar tecnicamente se o conteudo e falso.
+2. Preservar evidencias.
+3. Responder publicamente sem amplificar demais o conteudo falso.
+4. Reportar a plataforma.
+5. Acionar autoridades, se necessario.
+6. Considerar acao legal.
+
+Resumo:
+Deepfakes afetam confianca, percepcao dos eleitores e decisoes politicas.
+
+
+8. RISCOS DA IA GENERATIVA
+
+Riscos imediatos:
+- Misinformation: informacao falsa compartilhada sem intencao de enganar.
+- Disinformation: informacao falsa criada ou espalhada com intencao de enganar.
+- Conteudo falso em larga escala.
+- Fraudes e golpes.
+
+Riscos de medio prazo:
+- Deslocamento de empregos.
+- Mudancas no trabalho de conhecimento.
+- Dependencia excessiva de ferramentas de IA.
+
+Riscos de longo prazo:
+- Concentracao de poder em poucas empresas.
+- Concentracao de poder em poucos governos.
+- Aumento de desigualdades.
+- Perda de controle social sobre tecnologias importantes.
+
+Mitigacoes:
+- Rotulagem de conteudo gerado por IA.
+- Responsabilidade das plataformas.
+- Treinamento de trabalhadores.
+- Auditorias.
+- Transparencia.
+- Politicas antitruste.
+- Fortalecimento de agencias reguladoras.
+
+
+9. COPYRIGHT E IA
+
+O caso New York Times v. OpenAI/Microsoft mostra o conflito entre inovacao em IA e direitos autorais.
+
+Argumento do NYT:
+- Artigos foram usados sem permissao.
+- Modelos podem competir com o proprio jornal.
+- Conteudo jornalistico de qualidade deveria ser licenciado ou compensado.
+
+Argumento da OpenAI:
+- Treinamento com conteudo publico pode ser fair use.
+- Reproducao literal seria um erro raro.
+
+Posicao anotada:
+Empresas de IA deveriam compensar ou licenciar conteudo jornalistico de alta qualidade.
+
+
+10. TRABALHO E DESIGUALDADE
+
+Uma boa forma de analisar o impacto da IA no trabalho e dividir empregos em tarefas.
+
+Cada tarefa pode ser:
+- Automated: automatizada.
+- Augmented: aumentada ou assistida por IA.
+- Not affected: pouco afetada.
+
+Exemplo: radiologistas.
+A IA pode ajudar a analisar imagens, sugerir diagnosticos e priorizar casos. Mas a profissao nao e totalmente automatizada, porque ainda exige julgamento medico, responsabilidade clinica e comunicacao.
+
+Resumo:
+A IA tende a transformar muitas profissoes antes de substitui-las completamente.
+
+
+11. IA E DESIGUALDADE DE RENDA
+
+IA generativa pode aumentar desigualdade dentro dos paises porque:
+- Trabalhadores mais qualificados podem se beneficiar mais.
+- Empresas maiores conseguem adotar IA mais rapido.
+- Quem tem dados, capital e infraestrutura sai na frente.
+
+Tambem pode aumentar desigualdade entre paises porque:
+- Paises ricos tem mais infraestrutura digital.
+- Tem mais empresas de IA.
+- Tem mais capital.
+- Tem maior capacidade de adocao tecnologica.
+
+
+12. POWER AND PROGRESS
+
+Ideia principal de Acemoglu e Johnson:
+Tecnologia nao gera prosperidade automaticamente.
+
+O impacto da tecnologia depende de escolhas economicas, sociais, politicas e institucionais.
+
+Politicas importantes:
+- Investir em trabalhadores.
+- Lideranca governamental.
+- Incentivos para IA que complemente humanos.
+- Reforma tributaria.
+- Protecao de dados.
+- Limitacao do poder das Big Techs.
+
+
+13. MISINFORMATION E DISINFORMATION
+
+IA generativa torna mais barato criar conteudo falso em grande escala:
+- Texto.
+- Imagem.
+- Audio.
+- Video.
+
+O maior risco e desinformacao politica convincente, personalizada e dificil de detectar.
+
+Information resilience e a capacidade de pessoas e sociedades resistirem a manipulacao informacional.
+
+Boas praticas:
+- Verificar fontes.
+- Comparar com cobertura confiavel.
+- Desconfiar de conteudo muito emocional.
+- Evitar compartilhar conteudo suspeito.
+- Procurar contexto antes de acreditar.
+
+Metodo SIFT:
+- Stop: pare antes de compartilhar.
+- Investigate the source: investigue a fonte.
+- Find better coverage: procure cobertura melhor.
+- Trace claims: rastreie a origem da alegacao.
+
+Prebunking:
+Ensina pessoas sobre tecnicas de manipulacao antes que elas sejam expostas a uma mentira especifica.
+
+Resumo:
+Debunking corrige depois. Prebunking prepara antes.
+
+
+14. PERGUNTAS DE REVISAO
+
+1. O que significa dizer que um modelo de linguagem preve padroes?
+2. Qual e a diferenca entre RLHF e Constitutional AI?
+3. Quais elementos formam um bom prompt?
+4. Por que respostas de IA precisam de revisao humana?
+5. Cite tres bons usos de LLMs.
+6. Cite tres maus usos de LLMs.
+7. Por que o caso da Air Canada e importante?
+8. Quais usos de IA em campanhas politicas sao aceitaveis?
+9. Quais usos de IA em campanhas politicas devem ser proibidos?
+10. Como uma campanha deve responder a um deepfake?
+11. Qual e a diferenca entre misinformation e disinformation?
+12. Quais sao riscos imediatos, medios e longos da IA?
+13. Qual e o conflito central no caso NYT v. OpenAI/Microsoft?
+14. Como analisar o impacto da IA em uma profissao?
+15. Por que radiologistas tendem a ser aumentados, nao substituidos?
+16. Como IA pode aumentar desigualdade dentro dos paises?
+17. Como IA pode aumentar desigualdade entre paises?
+18. Qual e a licao principal de Power and Progress?
+19. O que e information resilience?
+20. Qual e a diferenca entre SIFT, debunking e prebunking?
+
+
+15. RESUMO DE BOLSO
+
+IA generativa cria conteudo a partir de padroes aprendidos. Modelos de linguagem funcionam prevendo continuacoes provaveis de texto. Eles podem ser melhorados por RLHF, que usa feedback humano, e por Constitutional AI, que usa principios.
+
+LLMs sao melhores como assistentes revisaveis, nao como autoridades finais. Bons usos incluem resumir, organizar, apoiar atendimento, ajudar desenvolvedores e analisar feedback. Maus usos incluem conselhos autoritativos sem verificacao, deepfakes, desinformacao e substituicao irresponsavel de especialistas.
+
+Os principais riscos envolvem erros, vieses, desinformacao, copyright, desigualdade, trabalho e concentracao de poder. A tecnologia nao gera prosperidade automaticamente: seus efeitos dependem de escolhas politicas, economicas e sociais.
+
