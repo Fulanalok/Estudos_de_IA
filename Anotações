@@ -253,26 +253,61 @@ Debunking corrige depois. Prebunking prepara antes.
 14. PERGUNTAS DE REVISAO
 
 1. O que significa dizer que um modelo de linguagem preve padroes?
-2. Qual e a diferenca entre RLHF e Constitutional AI?
-3. Quais elementos formam um bom prompt?
-4. Por que respostas de IA precisam de revisao humana?
-5. Cite tres bons usos de LLMs.
-6. Cite tres maus usos de LLMs.
-7. Por que o caso da Air Canada e importante?
-8. Quais usos de IA em campanhas politicas sao aceitaveis?
-9. Quais usos de IA em campanhas politicas devem ser proibidos?
-10. Como uma campanha deve responder a um deepfake?
-11. Qual e a diferenca entre misinformation e disinformation?
-12. Quais sao riscos imediatos, medios e longos da IA?
-13. Qual e o conflito central no caso NYT v. OpenAI/Microsoft?
-14. Como analisar o impacto da IA em uma profissao?
-15. Por que radiologistas tendem a ser aumentados, nao substituidos?
-16. Como IA pode aumentar desigualdade dentro dos paises?
-17. Como IA pode aumentar desigualdade entre paises?
-18. Qual e a licao principal de Power and Progress?
-19. O que e information resilience?
-20. Qual e a diferenca entre SIFT, debunking e prebunking?
+ele estuda padrões de palavras que vem uma depois da outra e tenta prever a próxima
 
+2. Qual e a diferenca entre RLHF e Constitutional AI?
+RLHF é a parte que a IA sofre review humana, constitutional AI é o uso de principios que ditam o comportamento da IA
+
+3. Quais elementos formam um bom prompt?
+Etapas, detalhes, contexto, objetivo claro, publico e formato desejado
+
+4. Por que respostas de IA precisam de revisao humana?
+Porque caso ela passe uma informação falsa ou errada, a empresa será responsabilizada
+
+5. Cite tres bons usos de LLMs.
+Resumir textos longos, ser um bom assistente e gerar ideias iniciais
+
+6. Cite tres maus usos de LLMs.
+Refatorar uma grande base de código legado, usar sem verificação humana e quando é utilizada para tópicos legais, sobre saude ou finanças
+
+7. Por que o caso da Air Canada e importante?
+Para as empresas saberem que tem responsabilidade onde a IA é utilizada
+
+8. Quais usos de IA em campanhas politicas sao aceitaveis?
+Tradução, acessibilidade e tentar alcançar mais pessoas
+
+9. Quais usos de IA em campanhas politicas devem ser proibidos?
+Deepfakes, mensagens faltas e desinformação
+
+10. Como uma campanha deve responder a um deepfake?
+Utilizando medidas legais, denunciando aos orgãos competentes e ataques manipulados
+
+11. Qual e a diferenca entre misinformation e disinformation?
+Misinformation é quando não se sabe que está passando uma informação falsa, disinformation é quando é intencional
+
+12. Quais sao riscos imediatos, medios e longos da IA?
+Imediatos: Conteúdo falso, médio: Dependência na ferramenta, longo: desigualdade 
+13. Qual e o conflito central no caso NYT v. OpenAI/Microsoft?
+Uso de material para ensinar a IA sem permissão
+
+14. Como analisar o impacto da IA em uma profissao?
+No que foi automatizado, o que foi ajudado e o que não foi afetado
+15. Por que radiologistas tendem a ser aumentados, nao substituidos?
+Porque várias ferramentas podem ajudá-los num ambiente de trabalho
+
+16. Como IA pode aumentar desigualdade dentro dos paises?
+Profissionais mais qualificados se adaptam mais 
+17. Como IA pode aumentar desigualdade entre paises?
+Empresas com mais capital e infraestrutura saem na vantagem
+
+18. Qual e a licao principal de Power and Progress?
+Que tecnologia não gera melhoria imediata
+
+19. O que e information resilience?
+Capacidade das pessoas de resistir a manipulação
+
+20. Qual e a diferenca entre SIFT, debunking e prebunking?
+SIFT é uma sigla para a pessoa não cair em manipulação e lembrar de regras, debunking é quando você prova que algo é falso após a notícia se espalhar e prebunking você prova antes de se espalhar que é falso
 
 15. RESUMO DE BOLSO
 
