@@ -1,0 +1,54 @@
+Resumo do Curso: Fundamentos de IA Generativa 2026
+Este curso apresentou os principais conceitos sobre Inteligencia Artificial Generativa, com foco no funcionamento, treinamento, avaliacao e aplicacao de LLMs, ou seja, grandes modelos de linguagem.
+1. Ciclo de vida de um LLM
+O treinamento de um LLM segue um processo composto por varias etapas. A primeira delas e a coleta de dados, pois o modelo depende diretamente da qualidade e diversidade das informacoes usadas no treinamento.
+Depois da coleta, os dados passam por limpeza, normalizacao e pre-processamento. Essa etapa remove erros, conteudos mal formatados, duplicidades e informacoes ofensivas ou inadequadas. Uma ideia importante aprendida foi a expressao "lixo entra, lixo sai": se os dados forem ruins, o modelo pode aprender padroes incorretos ou irrelevantes.
+2. Pre-processamento dos dados
+No pre-processamento, os textos sao preparados para que o modelo consiga interpreta-los melhor. Entre as etapas mais importantes estao:
+Limpeza dos dados.
+Normalizacao dos textos.
+Remocao ou validacao de conteudos ofensivos.
+Tokenizacao.
+A normalizacao reduz variacoes desnecessarias, como diferencas de escrita, formatos e padroes inconsistentes. Isso simplifica o vocabulario do modelo e melhora o aprendizado.
+A tokenizacao e o processo de transformar palavras ou partes de palavras em unidades que o modelo consegue entender, chamadas tokens. Um dos metodos mais comuns de tokenizacao em LLMs e o Byte Pair Encoding, tambem conhecido como BPE.
+3. Uso de ferramentas de apoio
+Foi apresentado que ferramentas como a Perspective API podem ser usadas para identificar textos ofensivos, toxicos ou inadequados durante a limpeza e validacao dos dados no pre-processamento.
+Esse tipo de recurso ajuda a melhorar a qualidade do conjunto de dados antes que ele seja usado no treinamento ou fine-tuning de um modelo.
+4. Fine-tuning
+O fine-tuning e uma etapa em que um modelo ja treinado e ajustado com dados especificos para uma determinada tarefa, empresa ou contexto.
+A escolha dos dados nessa etapa e muito importante, porque influencia diretamente o tom, o vocabulario e a especializacao do modelo. Quando se tem muitos dados especificos de uma empresa, o fine-tuning pode ser recomendado para adaptar o comportamento do LLM a um dominio mais particular.
+Dados anotados e diversificados sao importantes porque permitem que o modelo aprenda diferentes contextos, estilos e formas de resposta.
+5. Avaliacao de modelos
+A avaliacao serve para medir se o modelo esta funcionando bem. Dependendo da tarefa, diferentes metricas podem ser usadas.
+Em tarefas com classes desbalanceadas, a metrica F1 Score oferece uma visao mais justa do desempenho, pois combina precisao e recall. Em tarefas abertas, como criatividade na geracao de texto, a avaliacao humana e especialmente importante, ja que envolve aspectos subjetivos como clareza, contexto, utilidade e qualidade da resposta.
+6. Infraestrutura para treinamento
+O treinamento de LLMs exige muito poder computacional. CPUs nao sao indicadas para esse tipo de tarefa porque sao lentas para executar as operacoes paralelas necessarias.
+GPUs sao mais usadas porque possuem VRAM, a memoria de video disponivel para armazenar dados, pesos do modelo e calculos durante o treinamento. Ja as TPUs oferecem execucao otimizada para operacoes de deep learning em larga escala.
+7. Plataformas e ferramentas
+A Hugging Face foi apresentada como uma plataforma recomendada para projetos que exigem mais controle, portabilidade e transparencia. Ela permite trabalhar com modelos, datasets e pipelines de forma flexivel, sendo muito usada em projetos com modelos abertos.
+8. Aplicacoes praticas de LLMs
+O curso mostrou exemplos de aplicacoes reais com LLMs:
+Em chatbots, o fine-tuning pode ser usado quando existe uma base grande de dados especificos da empresa.
+No Duolingo Max, o recurso Role Play permite simular conversas reais com feedback de um LLM em tempo real.
+No caso Zendesk, os LLMs ajudam agentes a economizar tempo e gerar respostas menos copiadas e coladas.
+No caso Inflomarx, a dor principal dos usuarios era a geracao de conteudos genericos, com necessidade de mais estrategia, criatividade e personalizacao.
+Esses exemplos mostram que LLMs podem melhorar a experiencia do usuario quando sao aplicados a problemas reais e bem definidos.
+9. Criacao de propostas com LLMs
+Uma boa pratica ao criar aplicacoes com LLMs e combinar tecnologias de IA com problemas do cotidiano. Para mapear oportunidades, uma pergunta importante e: "Quando as pessoas perdem tempo com tarefas repetitivas?"
+O processo de criar uma proposta de aplicacao com LLMs envolve:
+Definir o problema que sera resolvido.
+Entender o contexto da aplicacao.
+Identificar como o LLM pode gerar valor.
+Testar a solucao.
+Coletar feedback dos usuarios.
+Refinar e documentar a aplicacao apos os testes.
+Ignorar o feedback dos usuarios nao e uma boa pratica, pois a melhoria da solucao depende da validacao com pessoas reais.
+10. Principais aprendizados
+Ao final do curso, os principais aprendizados foram:
+A qualidade dos dados e essencial para o desempenho de um LLM.
+O pre-processamento prepara os dados para o treinamento.
+Tokenizacao transforma texto em unidades compreensiveis para o modelo.
+Fine-tuning adapta modelos para contextos especificos.
+A avaliacao deve combinar metricas automaticas e avaliacao humana, dependendo da tarefa.
+GPUs e TPUs sao fundamentais para treinar modelos grandes com eficiencia.
+LLMs devem ser aplicados a problemas reais, com foco em utilidade, contexto e experiencia do usuario.
